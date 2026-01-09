@@ -11,3 +11,10 @@
   though the script provided on both architectures still differs (different
   content), the checker ignores the MD5 sum and file sizes and considers the
   builds valid.
+
+# git-repos
+
+Tared git repositories.
+
+* `rpmbuild-pipeline-git.tar.gz` is an early shape of the main upstream repo,
+  needed for `patch-git` test-case.
