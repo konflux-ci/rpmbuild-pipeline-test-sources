@@ -15,7 +15,9 @@
 * The `gather-rpms.tar.gz` contains basic buildroots for real Fedora build
   of `at`. It was produced basically by running
   `mock -r fedora-42-x86_64 --calculate-build-dependencies at-3.2.5-17.fc42.src.rpm`
-  and regular build after that.
+  and regular build after that. Note, that x86_64 mock config was altered to not
+  use mirrors and both ``buildroot_lock.json`` were run through substition of urls
+  from ``latest`` repo symlink to final ``packages``, so it remains stable for future.
 
 # git-repos
 
