@@ -1,0 +1,27 @@
+Konflux RPM Build Pipeline Test Sources
+Copyright Red Hat and the collected contributors to Konflux
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The root LICENSE applies to Konflux-authored material in this repository
+(for example README and repository layout). It does not replace the licenses
+of third-party or upstream package fixtures included for pipeline testing.
+
+---------------------------------------------------------------------------
+Third-party / upstream fixtures
+---------------------------------------------------------------------------
+
+Bundled RPMs, SRPMs, buildroots, and related archives retain their upstream
+licenses and copyright notices. They are not relicensed under the Apache
+License 2.0 solely by virtue of the root LICENSE file.
+
+Notable paths:
+
+- gather-rpms.tar.gz — Fedora mock buildroots for a real build of the `at`
+  package (see README for how the archive was produced). Package contents
+  remain under their Fedora/upstream terms.
+- broken-noarch-subpackage/ and valid-noarch-subpackage/ — test SRPMs and
+  binary RPMs used by noarch checks; retain upstream packaging licenses.
+- pytest-rpms/ — Fedora pytest package RPMs/SRPMs; retain upstream terms.
+- git-repos/ — archived git trees used as test inputs; contents retain any
+  upstream licenses present in those trees.
