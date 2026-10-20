@@ -23,3 +23,13 @@ Tared git repositories.
 
 * `rpmbuild-pipeline-git.tar.gz` is an early shape of the main upstream repo,
   needed for `patch-git` test-case.
+
+# Licensing
+
+Unless otherwise noted, this repository is licensed under the Apache License,
+Version 2.0. See [LICENSE](LICENSE).
+
+Bundled test fixtures (RPMs, SRPMs, Fedora buildroots such as
+`gather-rpms.tar.gz`, and archives under `git-repos/`) retain their upstream
+licenses and are not covered by the root Apache notice alone. See
+[NOTICE](NOTICE).
